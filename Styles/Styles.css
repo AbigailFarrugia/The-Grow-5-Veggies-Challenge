@@ -21,10 +21,13 @@ p {
     height: 15vw;
     background-color: #24504b;
     color: white;
-    padding: 5%;
+    padding: 6%;
     border-radius: 12%;
     text-align: center !important;
-    padding-top: 10% !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .calloutAlign {
@@ -89,12 +92,6 @@ h3 {
     font-family: 'Montserrat';
 }
 
-.headerLinks {
-        font-size: 1.5vw !important;
-        text-decoration: underline !important;
-        padding-top: 6% !important;
-}
-
 h4 {
     color: #ffffff;
     font-size: 1.1vw !important;
@@ -139,7 +136,6 @@ footer {
     height: auto;
     float: left;
 }
-
 
 .infoImg {
     padding-top: 12% !important;
@@ -225,10 +221,23 @@ a {
     text-decoration-thickness: 1px !important;
     font-size: 1.5vw !important;
     font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a:hover {
     text-decoration: white !important;
+}
+
+.activePage {
+    color: white !important;
+    font-size: 1.5vw !important;
+    text-decoration: none !important;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*CONTACT FORM*/
