@@ -182,7 +182,7 @@ hr {
 }
 
 .Btn:hover {
-    background-color: #24504b;
+    background-color: #24504b !important;
 }
 
 .submitBtn {
