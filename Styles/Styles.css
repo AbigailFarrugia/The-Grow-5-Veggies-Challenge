@@ -159,18 +159,24 @@ hr {
     margin: auto !important;
 }
 
+.icon {
+    width: 5vw !important;
+    position: absolute;
+    right: 50.2%;
+    padding: 1%;
+}
+
 /*BUTTONS*/
 
 .Btn {
-    background-color: #083d35;
+    background-color: #083d35 !important;
     color: white;
     border: none;
-    width: 20vw;
+    width: 20vw !important;
     height: 5vw;
     padding: 1.5vw;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -218,6 +224,25 @@ hr {
 
 .circleBtn:hover {
     background-color: #24504b;
+}
+
+.shareBtn {
+    background-color: #083d35 !important;
+    color: white;
+    border: none;
+    width: 10.5vw !important;
+    height: 5vw;
+    padding: 1.5vw;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.shareBtn:hover {
+    background-color: #24504b !important;
 }
 
 a {
