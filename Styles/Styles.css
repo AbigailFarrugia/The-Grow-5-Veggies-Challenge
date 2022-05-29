@@ -83,7 +83,6 @@ h2 {
     font-size: 2.5vw !important;
     font-family: 'Montserrat';
     text-align: center;
-    padding-top: vh;
 }
 
 h3 {
@@ -238,7 +237,6 @@ hr {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: right;
-    align-items: right;
 }
 
 .shareBtn:hover {
